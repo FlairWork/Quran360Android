@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quran360 Pro</string>
+	<string name="database_id">111</string>        
+    <string name="database_name">Quran360</string>    
+	<string name="packageName">com.flairwork.studyquran.pro</string>        
+</resources>

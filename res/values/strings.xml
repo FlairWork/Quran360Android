@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Release key is in the p_strings.xml file ignored by Git -->
+	
+    <string name="app_url">http://web.quran360.com</string>
+    
+    <string name="app_email">info@quran360.com</string>
+    
+    <string name="no_data">No Data</string>
+    
+    <!-- Activities labels -->
+    <string name="read_label">Read</string>
+    <string name="compare_label">Compare</string>
+    <string name="bookmark_label">BookMark</string>
+    <string name="search_label">Search</string>
+    <string name="indexes_label">Index</string>
+    <string name="topics_label">Topics</string>
+    
+    <string name="purchase_label">Purchase</string>
+    <string name="donate_label">Donate</string>
+    <string name="rate_label">Rate this</string>
+    <string name="share_label">Share this</string>
+    <string name="follow_label">Follow @Quran360</string>
+    <string name="visit_label">Visit us online</string>
+    <string name="translation_label">Translations</string>
+    <string name="settings_label">Settings</string>
+    <string name="feedback_label">Feedback</string>
+    <string name="about_label">About</string>
+    
+    <string name="menu">Menu</string>
+    <string name="readpoint">ReadPoint</string>
+    
+    <string name="go_label">Go</string>
+    <string name="sync_label">Synchronize</string>
+    <string name="add_label">Add</string>
+    <string name="edit_label">Edit</string>
+    <string name="delete_label">Delete</string>
+    <string name="save_label">Save</string>
+    <string name="cancel_label">Cancel</string>
+   
+    <string name="no_data">Data</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_compare">Compare</string>
+	<string name="menu_share">Share</string>
+    <string name="menu_shareSocial">Share to Social</string>
+    <string name="menu_checkpoint">Set as ReadPoint</string>
+    <string name="menu_gotocheckpoint">Go to CheckPoint</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="menu_bookmark_default">Default Bookmark</string>
+    <string name="menu_bookmark_edit">Edit Bookmark</string>
+    <string name="menu_bookmark_delete">Delete Bookmark</string>
+	<string name="menu_bookmark_clear">Delete all</string>
+	<string name="menu_search_edit">Edit Search</string>
+    <string name="menu_search_delete">Delete Search</string>
+	<string name="menu_search_clear">Delete all</string>
+    
+    <!-- about page strings -->
+    <string name="about_title"><strong>Quran360</strong></string>
+    <string name="about_content">Quran360 aims to help mankind to Read Quran, Compare Quranic translations, Bookmark Quranic verse, Search Quran translation, read Index of the Quran, read Topics in the Quran and Contribute to Topics in the Quran.</string>
+    
+    <string name="about_quran_title"><strong>Quran and Translations</strong></string>
+    <string name="about_quran_content">Tanzil.net</string>
+    
+	<string name="about_index_title"><strong>Index</strong></string>
+    <string name="about_index_content">An Index to the Quran by Harun Yahya (October 2003)</string>
+    
+    <string name="about_topic_title"><strong>Topics</strong></string>
+    <string name="about_topic_content">An Index to the Quran by Harun Yahya (October 2003). Quran360 Web Community.</string>
+    
+    <string name="more_info_on_quran360">For more information, visit:</string>
+    <string name="app_mailto"><a href="mailto:info@quran360.com?Subject=[Quran360 Android]"><strong>info@quran360.com</strong></a></string>
+    
+</resources>

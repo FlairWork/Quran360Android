@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.flairwork.studyquran.pro.widget.HeadedTextItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/gd_separator_item_view" />
+
+    <include
+        layout="@layout/gd_text_item_view" />
+
+</com.flairwork.studyquran.pro.widget.HeadedTextItemView>

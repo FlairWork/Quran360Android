@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Display">
+			<ListPreference
+	            android:title="Chapter Sort"
+	            android:summary="Sort Chapter by Chapter No or Order of Revelation"
+                android:key="chapterSort"
+	            android:defaultValue="Number"
+	            android:entries="@array/chapterSort"
+	            android:entryValues="@array/chapterSort" />
+            <CheckBoxPreference
+                android:title="Verses in Arabic"
+                android:defaultValue="true"
+                android:summary="Display Quran Verse"
+                 android:key="isArabicVerses" />
+            <CheckBoxPreference
+                android:title="Verses Translation"
+                android:defaultValue="true"
+                android:summary="Display Quran Translation"
+                android:key="isTransVerses" />  
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Arabic Font Size">
+	        <ListPreference
+	            android:key="arabicVerseFont"
+	            android:title="Verse"
+	            android:summary="Quranic Verse Font Size"
+	            android:defaultValue="24"
+	            android:entries="@array/fontSizeArray"
+	            android:entryValues="@array/fontSizeValues" />
+    	</PreferenceCategory>
+    	<PreferenceCategory android:title="Translation Font Size">
+	        <ListPreference
+	            android:key="transVerseFont"
+	            android:title="Verse"
+	            android:summary="Verse Translation Font Size"
+	            android:defaultValue="18"
+	            android:entries="@array/fontSizeArray"
+	            android:entryValues="@array/fontSizeValues" />
+    	</PreferenceCategory>
+</PreferenceScreen>

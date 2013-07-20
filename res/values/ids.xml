@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<item type="id" name="action_bar_refresh" />
+	<item type="id" name="action_bar_export" />
+	<item type="id" name="action_bar_locate" />
+	<item type="id" name="action_bar_view_info" />
+	<item type="id" name="action_bar_view_setting" />
+	<item type="id" name="action_bar_menu" />
+	<item type="id" name="action_bar_view_trans" /> 
+	<item type="id" name="action_bar_view_trans" />
+	
+</resources>

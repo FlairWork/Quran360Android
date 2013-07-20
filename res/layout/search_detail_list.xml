@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    android:background="#ffffff">
+    <TableRow>	
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/AyahText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp"
+		    android:textStyle="normal"
+		    android:textSize="16sp"
+		    android:textColor="#000000">
+		</TextView>
+    </TableRow>
+    <TableRow>
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:background="#ffffff">
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:padding="5dp"
+			    	android:textStyle="bold"    
+			   		android:textSize="14sp"
+				   	android:text="("
+				    android:textColor="#574A22" 
+				    android:gravity="left"/>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/SuraID"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="5dp"
+			    android:textStyle="bold"    
+			   	android:textSize="14sp"
+			    android:textColor="#574A22">
+			</TextView>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:padding="5dp"
+			    	android:textStyle="bold"    
+			   		android:textSize="14sp"
+				   	android:text=":"
+				    android:textColor="#574A22" 
+				    android:gravity="left"/>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/VerseID"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="5dp"
+			    android:textStyle="bold"    
+			   	android:textSize="14sp"
+			    android:textColor="#574A22">
+			</TextView>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:padding="5dp"
+			    	android:textStyle="bold"    
+			   		android:textSize="14sp"
+				   	android:text=")"
+				    android:textColor="#574A22" 
+				    android:gravity="left"/>
+		</LinearLayout>
+	</TableRow>
+</TableLayout>      

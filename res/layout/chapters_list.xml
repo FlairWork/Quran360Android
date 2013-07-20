@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="#ffffff"
+android:padding="0px"
+android:layout_margin="0px"
+android:gravity="center">
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/_id"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+	android:layout_marginBottom="0dp"
+	android:padding="1dp"
+    android:textStyle="bold"    
+   	android:textSize="16sp"
+   	android:textColor="#9fA503" 
+   	android:gravity="center" />
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ArabicName"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:paddingTop="0dp" 
+	android:paddingBottom="0dp"
+	android:layout_marginTop="0dp"
+	android:layout_marginBottom="-35dp"
+	android:textStyle="normal"
+    android:textSize="21sp"
+    android:textColor="#000000" 
+    android:gravity="center"/>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/SuraName"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:layout_marginTop="5dp"
+	android:paddingTop="5dp"
+	android:paddingBottom="0dp"
+	android:textStyle="bold"
+    android:textSize="14sp"
+    android:textColor="#9fA503"
+    android:gravity="center" />
+
+<!-- 
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/SuraType"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:textSize="18sp"
+    android:textColor="#574A22">
+</TextView>
+-->
+</LinearLayout>       

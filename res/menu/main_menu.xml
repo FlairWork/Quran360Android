@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/checkpoint"
+          android:title="Go to CheckPoint" />
+    <item android:id="@+id/gotochapterverse"
+          android:title="Go to" />          
+    <item android:id="@+id/share"
+          android:title="Share this" />             
+    <item android:id="@+id/settings"
+          android:title="Preferences" />                 
+    <item android:id="@+id/about"
+          android:title="About" />             
+</menu>
